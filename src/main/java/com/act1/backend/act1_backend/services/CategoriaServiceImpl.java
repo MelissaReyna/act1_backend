@@ -37,4 +37,7 @@ public class CategoriaServiceImpl implements ICategoriaService{
     public void delete(Integer cat_idcat) {
         categoriaDao.deleteById(cat_idcat);
     }
+
+
+
 }
